@@ -5,7 +5,7 @@ const button = document.getElementById("nextBtn");
 const classes = ['pew','franki3','frank', 'container', 'slider'];
 function showNext() {
   button.style.display = 'inline-block';
-  button.style.top = '477px'
+  button.style.top = '474px'
 }; 
 
 let currentIndex = 0;
@@ -25,7 +25,7 @@ button.addEventListener('click',function() {
   else if(classes[currentIndex] == 'franki3')
   {
     let nowTop = parseInt(button.style.top) || 0;
-    button.style.top = (nowTop+471) +'px';
+    button.style.top = (nowTop+463) +'px';
   }
   else if (classes[currentIndex] == 'frank')
     {
